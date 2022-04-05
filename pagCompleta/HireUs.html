@@ -10,42 +10,46 @@
 
 <body>
     <header>
-        <div>
+        <nav>
             <a href="index.html"><img src="../img/logo.png" alt="logo da impresa spacex com o x no final"></a>
             <a href="sobre.html">The Spaceships |</a>
-            <a href="">Hire US</a>
-        </div>
+            <a href="HireUs.html">Hire US</a>
+        </nav>
     </header>
     <hr>
-    <h2>Hire Us Now</h2>
-    <p>Leave a message to request one of our services and we will ger back to you as soon as posible.</p>
+    <section>
+        <h2>Hire Us Now</h2>
+        <p>Leave a message to request one of our services and we will ger back to you as soon as posible.</p>
+    </section>
 
-    <form action="#">
-        <div>
-            <label for="Name:" id="name" value="name">Name:</label>
-            <input type="name" placeholder="Informe seu nome"> -
-            <label for="emal">Email:</label>
-            <input type="email" placeholder="Informe seu melhor email">
-        </div>
-        <br>
-        <div>
-            <label for="natinality" name="natinality">Spaceship:</label>
-                <select name="natinality" id="natinality">
-                    <option value="falcon9">Falcon9</option>
-                    <option value="falconheven">Falcon Heven</option>  
-                </select>
-                <label for="namesearch">Type of Service:</label>
-                <input type="search" list="online-stores">
-                <datalist id="online-stores" style="display:hidden;">
-                    <option value="Nam quis nulla, Interger malessuada">
-                    <option value="In in enum a rcu Imprediet malesuada">
-                    <option value="Sed vel lectus.Dunec odio urna">
-                    <option value="Aenean id metus id velit ultamcorper pulvinar">
-                </datalist>
-        </div>
-        <br>
-        <input type="submit" name="submit"value='Send Message'>
-    </form>
+    <section>
+        <form action="#">
+            <div>
+                <label for="Name:" id="name" value="name">Name:</label>
+                <input type="name" placeholder="Informe seu nome"> -
+                <label for="emal">Email:</label>
+                <input type="email" placeholder="Informe seu melhor email">
+            </div>
+            <br>
+            <section>
+                <label for="Spaceship" name="Spaceship">Spaceship:</label>
+                    <select name="Spaceship" id="Spaceship">
+                        <option value="falcon9">Falcon9</option>
+                        <option value="falconheven">Falcon Heven</option>  
+                    </select>
+                    <label for="namesearch">Type of Service:</label>
+                    <input type="search" list="online-stores" autocomplete="on">
+                    <datalist id="online-stores" style="display:hidden;">
+                        <option value="Nam quis nulla, Interger malessuada">
+                        <option value="In in enum a rcu Imprediet malesuada">
+                        <option value="Sed vel lectus.Dunec odio urna">
+                        <option value="Aenean id metus id velit ultamcorper pulvinar">
+                    </datalist>
+            </section>
+            <br>
+            <input type="submit" name="submit"value='Send Message'>
+        </form>
+    </section>
 </body>
 
 </html>
